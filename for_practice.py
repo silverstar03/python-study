@@ -5,5 +5,6 @@
 
 #구구단 2~9단까지 출력하기
 for dan in range(2,10):
+    print("-"*10)
     for i in range(1,10):
         print(dan, "x", i, "=", dan*i)
