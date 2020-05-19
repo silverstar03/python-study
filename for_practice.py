@@ -20,7 +20,7 @@ for i in range(0, len(num)):
 
 #num에 더하자
 #sum 출력하자
-print(num)
+print(sum)
 
 #369 게임
 #전화번호부 만들고, 이름으로 검색하기
