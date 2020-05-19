@@ -12,11 +12,12 @@
 #N자리수의 각 자리 숫자합 출력하기
 num = input("숫자를 입력하세요 : ")
 sum = 0
-#0~입력받은 숫자 길이만큼 하나씩 꺼냄 -> n
-#i: 입력받은 숫자 길이 -1
-for i in range(0, len(num)):
-    n = num[i]
-    sum += int(n)
+for ch in num:
+    sum += int(ch)
+
+#for i in range(0, len(num)):
+#    n = num[i]
+#    sum += int(n)
 
 #num에 더하자
 #sum 출력하자
