@@ -31,7 +31,7 @@ student_number = input("당신의 학번은: ")
 grade = student_number[0]
 classroom = student_number[1]
 major = "null"
-if classroom == "1" or classroom == "2":
+if classroom in "12":   #classroom == "1" or classroom == "2":
     major = "뉴미디어소프트웨어"
 elif classroom == "3" or classroom == "4":
     major = "뉴미디어웹솔루션"
