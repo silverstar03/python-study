@@ -27,7 +27,7 @@
 for num in range(1, 100+1):
     num = str(num)
     is짝 = False
-    result = "" #99의 경우 줄바꿈을 하면 안됨으로 변수에 짝을 변수에 집어넣어준다.
+    result = "" #99의 경우 줄바꿈을 하면 안되므로 짝을 변수에 집어넣어준다.
     for n in num:
         if n in "369":
             result += "짝"
